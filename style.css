@@ -61,7 +61,7 @@ img {
 /* HERO SECTION */
 #Hero {
   height: 670px;
-  background-image: url(https://i.postimg.cc/mZSKtnB2/hero-desktop.jpg);
+  background-image: url("https://i.postimg.cc/mZSKtnB2/hero-desktop.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,7 +78,7 @@ img {
   font-size: 34px;
 }
 .hero-heading .form {
-  width: 400px;
+  max-width: 400px;
   position: relative;
   margin: 25px auto 15px;
 }
@@ -155,7 +155,7 @@ img {
   padding: 0 5px;
 }
 .services-subdiv .service-img {
-  width: 150px;
+  max-width: 150px;
   height: 150px;
   margin: 0 auto 10px;
 }
@@ -283,7 +283,6 @@ img {
   #concequences .write-up {
     text-align: center;
     padding-bottom: 2.5rem;
-    /* background-color: #eb1700; */
   }
   #restaurant .write-up h1 {
     text-align: center;
@@ -303,7 +302,7 @@ img {
   height: 480px;
 }
 #Dashpass .write-up {
-  width: 450px;
+  max-width: 450px;
 }
 @media screen and (max-width: 967px) {
   #Dashpass {
@@ -342,7 +341,6 @@ img {
 }
 #Groceries .write-up h1 {
   font-size: 35px;
-  /* padding: 0; */
   margin-bottom: 20px;
 }
 #Groceries .write-up h4 {
