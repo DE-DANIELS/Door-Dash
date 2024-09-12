@@ -137,9 +137,9 @@ img {
   vertical-align: middle;
 }
 @media screen and (max-width: 967px) {
-  #Hero {
-    padding-right: 1.6rem;
-    padding-left: 1.6rem;
+  .hero-heading {
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 /* SERVICES SECTION */
@@ -479,7 +479,7 @@ img {
   height: 480px;
 }
 #partner .write-up {
-  width: 470px;
+  max-width: 470px;
 }
 @media screen and (max-width: 967px) {
   #partner {
