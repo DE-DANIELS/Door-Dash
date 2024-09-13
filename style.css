@@ -244,7 +244,7 @@ img {
 }
 #restaurant .image {
   max-width: 680px;
-  height: 480px;
+  /* height: 480px; */
   margin-bottom: -45px;
   z-index: 1;
 }
@@ -284,9 +284,11 @@ img {
     text-align: center;
     padding-bottom: 2.5rem;
   }
-  #restaurant .write-up h1 {
+  #restaurant .write-up h1,
+  #concequences .write-up h1 {
+    font-size: 1.9rem;
     text-align: center;
-    padding: 0 1rem;
+    padding: 0 5px;
   }
 }
 /* DASHPASS SECTION */
@@ -299,7 +301,7 @@ img {
 }
 #Dashpass .image {
   max-width: 700px;
-  height: 480px;
+  /* height: 480px; */
 }
 #Dashpass .write-up {
   max-width: 450px;
@@ -317,8 +319,9 @@ img {
   }
   #restaurant .write-up h1,
   #Dashpass .write-up h1 {
+    font-size: 1.9rem;
     text-align: center;
-    padding: 0 1rem;
+    padding: 0 5px;
   }
 }
 /*  GROCERIES SECTION*/
@@ -359,7 +362,7 @@ img {
     width: 95%;
   }
   #Groceries .write-up h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 }
 /* CONCEQUENCES SECTION */
@@ -374,12 +377,17 @@ img {
 }
 #concequences .image {
   max-width: 690px;
-  height: 495px;
+  /* height: 495px; */
   margin-bottom: -50px;
   z-index: 1;
 }
 #concequences .write-up h1 {
   padding: 0 20px 0 0;
+}
+@media screen and (max-width: 967px) {
+  #concequences .write-up h1 {
+    padding: 0 5px;
+  }
 }
 /* HELPING SECTION */
 #Helping {
@@ -426,6 +434,13 @@ img {
   #sign-up .sub-container {
     flex-direction: column-reverse;
   }
+  #Helping .head h1 {
+    font-size: 1.9rem;
+  }
+  #Helping .sub-div h1 {
+    font-size: 1.9rem;
+    /* padding: 0; */
+  }
 }
 /* SIGN-UP SECTION */
 #sign-up {
@@ -449,7 +464,7 @@ img {
 }
 #sign-up .image {
   max-width: 685px;
-  height: 480px;
+  /* height: 480px; */
   margin-bottom: -45px;
 }
 @media screen and (max-width: 967px) {
@@ -460,8 +475,13 @@ img {
     text-align: center;
     padding-bottom: 2rem;
   }
+  #sign-up .head h1 {
+    font-size: 1.9rem;
+    padding: 0 0.3rem;
+  }
   #sign-up .write-up h1 {
-    padding: 0 1rem;
+    font-size: 1.9rem;
+    padding: 0 5px;
   }
 }
 /* PARTNER SECTION */
@@ -474,7 +494,7 @@ img {
 }
 #partner .image {
   max-width: 690px;
-  height: 480px;
+  /* height: 480px; */
 }
 #partner .write-up {
   max-width: 470px;
@@ -492,7 +512,8 @@ img {
     padding-bottom: 1.5rem;
   }
   #partner .write-up h1 {
-    padding: 0 1rem;
+    font-size: 1.9rem;
+    padding: 0 5px;
   }
 }
 /* FOOTER SECTION */
